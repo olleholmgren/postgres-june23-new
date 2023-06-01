@@ -1,5 +1,4 @@
 
-
 class FriaMagnataOrdern:
     def __init__(self, name, title, age, color):
         self.name = name
