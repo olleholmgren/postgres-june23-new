@@ -8,7 +8,7 @@ class FriaMagnataOrdern:
         self.color = color
 
     def DescribePerson(self):
-        return f"Namnet var {self.name}, med titeln {self.title}, {self.age} år gammal, färgen äro {self.color} och förblivo {self.color}."
+        return f'Namnet var {self.name}, med titeln {self.title}, {self.age} år gammal, färgen äro {self.color} och förblivo {self.color}.'
 
 member_1 = FriaMagnataOrdern('Sunnek', 'bas', 55, 'lila')
 member_2 = FriaMagnataOrdern('Hasse', 'hundvakt', 28, 'brun')
